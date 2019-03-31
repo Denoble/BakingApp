@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_swipe_refresh_layout">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/mintCream"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recipeFeedRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="fill"
+                >
+            </android.support.v7.widget.RecyclerView>
+
+        </FrameLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</layout>

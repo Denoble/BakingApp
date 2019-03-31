@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="ingredients">Click here to see Ingredient list</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="alternative_to_video">Alternative to video</string>
+    <string name="video_play_exit">Video play exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_to_recipe_list">Back to recipe List</string>
+</resources>
